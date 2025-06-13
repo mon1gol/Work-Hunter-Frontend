@@ -57,6 +57,14 @@
       </v-col>
     </v-row>
   </v-container>
+
+  <v-footer class="d-flex align-center justify-center ga-2 flex-wrap flex-grow-1 py-3" color="surface-light">
+    <v-btn 
+      text
+      to="/about"
+      rounded
+    >О нас</v-btn>
+  </v-footer>
 </template>
 
 <script setup>

@@ -37,7 +37,25 @@
   </div>
 
   <v-container style="height: 100%; max-width: 1200px;">
-    
+    <v-row class="" no-gutters>
+      <v-col cols="6" class="mt-10 pa-10">
+        <div class="homepage-images object-appearance" style="top: 220px; left: 0;">
+          <img class="base-image" src="../assets/homepage_girlrocket/all.svg" alt="all">
+          <img class="base-image" style="top: -120px; left: 127px;" src="../assets/homepage_girlrocket/face.svg" alt="face">
+          <img class="base-image" style="top: 50px; left: 250px;" src="../assets/homepage_girlrocket/line1.svg" alt="line1">
+          <img class="base-image" style="top: 100px; left: 120px;" src="../assets/homepage_girlrocket/line2.svg" alt="line2">
+          <img class="base-image" style="top: -50px; left: -120px;" src="../assets/homepage_girlrocket/paper1.svg" alt="paper1">
+          <img class="base-image" style="top: -50px; left: -50px;" src="../assets/homepage_girlrocket/paper2.svg" alt="paper2">
+        </div>
+      </v-col>
+      <v-col cols="6" class="d-flex flex-column justify-space-between mt-10 pa-10 h-100">
+        <div class="mb-16">
+          <h1 class="text-h2">Начните сейчас</h1>
+          <div class="text-body-1 mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+        </div>
+        <v-btn color="primary" class="w-100 mt-16" text to="/auth/signup">Начать работу</v-btn>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

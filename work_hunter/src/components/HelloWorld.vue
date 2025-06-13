@@ -1,7 +1,7 @@
 <template>
   <v-container 
     class="d-flex flex-column justify-space-between align-center" 
-    style="height: 100%; max-width: 1200px;"
+    style="height: 90dvh; max-width: 1200px;"
   >
     <div class="homepage-images object-appearance" style="top: 300px; left: -20px;">
       <img class="base-image human" src="../assets/homepage_human/human.svg" alt="human">
@@ -16,30 +16,30 @@
     </h1>
   </v-container>
 
-  <div 
-    class="mt-16 pt-16" 
-    style="height: 100%; clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); background-color: #F9C784;"
+  <div
+    class="" 
+    style="height: 90dvh; clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); background-color: #F9C784;"
   >
-    <v-container style="height: 100%; max-width: 1200px;">
-      <v-row class="mt-16" no-gutters>
-        <v-col cols="6" class="d-flex flex-column justify-space-between mt-10 pa-10">
+    <v-container style="height: 100%; max-width: 1200px;" class="d-flex align-center">
+      <v-row class="" no-gutters>
+        <v-col cols="6" class="d-flex flex-column justify-space-between">
           <div>
             <h1 class="text-h2 text-black">Продвигайте свои услуги</h1>
-            <div class="text-body-1 mt-10 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+            <div class="text-body-1 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
           </div>
           <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
         </v-col>
-        <v-col cols="6" class="pa-10"> 
+        <v-col cols="6" class=""> 
           <v-img src="../assets/homepage_pc.svg"></v-img>
         </v-col>
       </v-row>
     </v-container>
   </div>
 
-  <v-container style="height: 100%; max-width: 1200px;">
+  <v-container style="height: 90dvh; max-width: 1200px;" class="d-flex align-center">
     <v-row class="" no-gutters>
-      <v-col cols="6" class="mt-10 pa-10">
-        <div class="homepage-images object-appearance" style="top: 220px; left: 0;">
+      <v-col cols="6" class="">
+        <div class="homepage-images object-appearance" style="top: 0; left: 100px;">
           <img class="base-image" src="../assets/homepage_girlrocket/all.svg" alt="all">
           <img class="base-image" style="top: -120px; left: 127px;" src="../assets/homepage_girlrocket/face.svg" alt="face">
           <img class="base-image" style="top: 50px; left: 250px;" src="../assets/homepage_girlrocket/line1.svg" alt="line1">
@@ -48,17 +48,17 @@
           <img class="base-image" style="top: -50px; left: -50px;" src="../assets/homepage_girlrocket/paper2.svg" alt="paper2">
         </div>
       </v-col>
-      <v-col cols="6" class="d-flex flex-column justify-space-between mt-10 pa-10 h-100">
-        <div class="mb-16">
+      <v-col cols="6" class="d-flex flex-column justify-space-between h-100">
+        <div>
           <h1 class="text-h2">Начните сейчас</h1>
-          <div class="text-body-1 mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+          <div class="text-body-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
         </div>
-        <v-btn color="primary" class="w-100 mt-16" text to="/auth/signup">Начать работу</v-btn>
+        <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
       </v-col>
     </v-row>
   </v-container>
 
-  <v-footer class="d-flex align-center justify-center ga-2 flex-wrap flex-grow-1 py-3" color="surface-light">
+  <v-footer class="d-flex align-center justify-center ga-2 flex-wrap flex-grow-1" color="surface-light">
     <v-btn 
       text
       to="/about"

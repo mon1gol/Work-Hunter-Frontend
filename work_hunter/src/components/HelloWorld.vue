@@ -22,10 +22,10 @@
   >
     <v-container style="height: 100%; max-width: 1200px;" class="d-flex align-center">
       <v-row class="" no-gutters>
-        <v-col cols="6" class="d-flex flex-column justify-space-between">
+        <v-col cols="6" class="mt-16">
           <div>
-            <h1 class="text-h2 text-black">Продвигайте свои услуги</h1>
-            <div class="text-body-1 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+            <h1 class="text-h2 text-black mb-10">Продвигайте свои услуги</h1>
+            <div class="text-body-1 text-black mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
           </div>
           <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
         </v-col>
@@ -48,10 +48,10 @@
           <img class="base-image" style="top: -50px; left: -50px;" src="../assets/homepage_girlrocket/paper2.svg" alt="paper2">
         </div>
       </v-col>
-      <v-col cols="6" class="d-flex flex-column justify-space-between h-100">
+      <v-col cols="6">
         <div>
-          <h1 class="text-h2">Начните сейчас</h1>
-          <div class="text-body-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+          <h1 class="text-h2 mb-10">Начните сейчас</h1>
+          <div class="text-body-1 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
         </div>
         <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
       </v-col>

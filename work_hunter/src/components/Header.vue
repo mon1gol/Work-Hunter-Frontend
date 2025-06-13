@@ -2,8 +2,6 @@
   <v-app-bar
     class="px-16"
     color="none"
-    :elevation="0"
-    scroll-behavior="hide"
   >
     <template #prepend>
       <v-app-bar-nav-icon />
@@ -13,7 +11,7 @@
     <div>
       <v-btn plain to="/about">О нас</v-btn>
       <v-btn class="mx-2" text to="/auth/login" variant="tonal">Вход</v-btn>
-      <v-btn color="accent" text to="/auth/signup" variant="flat">Регистрация</v-btn>
+      <v-btn color="primary" text to="/auth/signup" variant="flat">Регистрация</v-btn>
     </div>
   </v-app-bar>
 </template>

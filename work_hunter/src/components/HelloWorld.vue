@@ -5,32 +5,40 @@
   >
     <div class="homepage-images object-appearance" style="top: 300px; left: -20px;">
       <img class="base-image human" src="../assets/homepage_human/human.svg" alt="human">
-      <img class="base-image items1 swimming-inf1" src="../assets/homepage_human/items1.svg" alt="">
-      <img class="base-image items2 swimming-inf1" src="../assets/homepage_human/items2.svg" alt="">
-      <img class="base-image items3 swimming-inf2" src="../assets/homepage_human/items3.svg" alt="">
-      <img class="base-image items4 swimming-inf2" src="../assets/homepage_human/items4.svg" alt="">
+      <img class="base-image items1 swimming-inf1" src="../assets/homepage_human/items1.svg" alt="items1">
+      <img class="base-image items2 swimming-inf1" src="../assets/homepage_human/items2.svg" alt="items2">
+      <img class="base-image items3 swimming-inf2" src="../assets/homepage_human/items3.svg" alt="items3">
+      <img class="base-image items4 swimming-inf2" src="../assets/homepage_human/items4.svg" alt="items4">
     </div>
-    
+  
     <h1 style="z-index: 10;" class="text-h1 text-center">
       Ваша охота на работу <br> начинается здесь
     </h1>
   </v-container>
 
   <div 
-    class="mt-16" 
+    class="mt-16 pt-16" 
     style="height: 100%; clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); background-color: #F9C784;"
   >
-    <v-container
-      style="height: 100%; max-width: 1200px;"
-    >
-      <v-row>
-        <v-col cols="6">
+    <v-container style="height: 100%; max-width: 1200px;">
+      <v-row class="mt-16" no-gutters>
+        <v-col cols="6" class="d-flex flex-column justify-space-between mt-10 pa-10">
+          <div>
+            <h1 class="text-h2 text-black">Продвигайте свои услуги</h1>
+            <div class="text-body-1 mt-10 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
+          </div>
+          <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
         </v-col>
-        <v-col cols="6"> 
+        <v-col cols="6" class="pa-10"> 
+          <v-img src="../assets/homepage_pc.svg"></v-img>
         </v-col>
       </v-row>
     </v-container>
   </div>
+
+  <v-container style="height: 100%; max-width: 1200px;">
+    
+  </v-container>
 </template>
 
 <script setup>

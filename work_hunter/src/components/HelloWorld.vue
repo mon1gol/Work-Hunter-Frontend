@@ -27,7 +27,7 @@
             <h1 class="text-h2 text-black mb-10">Продвигайте свои услуги</h1>
             <div class="text-body-1 text-black mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
           </div>
-          <v-btn size="large" color="primary" class="w-50" text to="/auth/signup">Начать работу</v-btn>
+          <v-btn size="large" color="primary" class="w-50 button-gradient" text to="/auth/signup">Начать работу</v-btn>
         </v-col>
         <v-col cols="6" class=""> 
           <v-img src="../assets/homepage_pc.svg"></v-img>
@@ -53,7 +53,7 @@
           <h1 class="text-h2 mb-10">Начните сейчас</h1>
           <div class="text-body-1 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
         </div>
-        <v-btn size="large" color="primary" class="w-50" text to="/auth/signup">Начать работу</v-btn>
+        <v-btn size="large" color="primary" class="w-50 button-gradient" text to="/auth/signup">Начать работу</v-btn>
       </v-col>
     </v-row>
   </v-container>

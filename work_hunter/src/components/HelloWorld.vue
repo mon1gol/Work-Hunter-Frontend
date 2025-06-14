@@ -1,7 +1,7 @@
 <template>
   <v-container 
     class="d-flex flex-column justify-space-between align-center" 
-    style="height: 90dvh; max-width: 1200px;"
+    style="height: 800px; max-width: 1200px;"
   >
     <div class="homepage-images object-appearance" style="top: 300px; left: -20px;">
       <img class="base-image human" src="../assets/homepage_human/human.svg" alt="human">
@@ -11,23 +11,23 @@
       <img class="base-image items4 swimming-inf2" src="../assets/homepage_human/items4.svg" alt="items4">
     </div>
   
-    <h1 style="z-index: 10;" class="text-h1 text-center">
+    <h1 style="z-index: 10;" class="text-h1 text-center font-weight-medium">
       Ваша охота на работу <br> начинается здесь
     </h1>
   </v-container>
 
   <div
     class="" 
-    style="height: 90dvh; clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); background-color: #F9C784;"
+    style="height: 800px; clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%); background-color: #F9C784;"
   >
     <v-container style="height: 100%; max-width: 1200px;" class="d-flex align-center">
-      <v-row class="" no-gutters>
+      <v-row class="">
         <v-col cols="6" class="mt-16">
           <div>
             <h1 class="text-h2 text-black mb-10">Продвигайте свои услуги</h1>
             <div class="text-body-1 text-black mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
           </div>
-          <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
+          <v-btn size="large" color="primary" class="w-50" text to="/auth/signup">Начать работу</v-btn>
         </v-col>
         <v-col cols="6" class=""> 
           <v-img src="../assets/homepage_pc.svg"></v-img>
@@ -36,10 +36,10 @@
     </v-container>
   </div>
 
-  <v-container style="height: 90dvh; max-width: 1200px;" class="d-flex align-center">
-    <v-row class="" no-gutters>
-      <v-col cols="6" class="">
-        <div class="homepage-images object-appearance" style="top: 0; left: 100px;">
+  <v-container style="height: 800px; max-width: 1200px;" class="d-flex align-center">
+    <v-row>
+      <v-col cols="6">
+        <div class="homepage-images object-appearance" style="top: 0; left: 150px;">
           <img class="base-image" src="../assets/homepage_girlrocket/all.svg" alt="all">
           <img class="base-image" style="top: -120px; left: 127px;" src="../assets/homepage_girlrocket/face.svg" alt="face">
           <img class="base-image" style="top: 50px; left: 250px;" src="../assets/homepage_girlrocket/line1.svg" alt="line1">
@@ -53,7 +53,7 @@
           <h1 class="text-h2 mb-10">Начните сейчас</h1>
           <div class="text-body-1 mb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at dolorum optio commodi obcaecati placeat nisi perferendis ullam dolore vitae inventore, nostrum cum! Eligendi fugiat tempora maxime. Tempore, nihil saepe.</div>
         </div>
-        <v-btn color="primary" class="w-100" text to="/auth/signup">Начать работу</v-btn>
+        <v-btn size="large" color="primary" class="w-50" text to="/auth/signup">Начать работу</v-btn>
       </v-col>
     </v-row>
   </v-container>
